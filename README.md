@@ -8,11 +8,13 @@ It is a static site with no build step: plain HTML, one stylesheet and one small
 
 | Page | Purpose |
 |---|---|
-| `index.html` | Home: the problem, the five programmes, the founder's track record, how we work |
+| `index.html` | Home: the problem, species at stake, the five programmes, the founder's track record, how we work |
 | `about.html` | Mission, values, founder profile and timeline, place in Masul Group |
 | `programmes.html` | Detail on each programme, what partners can fund, and where the Fund works |
 | `approach.html` | Principles, the shared operating stack, and safeguards |
-| `partner.html` | Ways to partner, reporting commitments, and the enquiry form |
+| `partner.html` | Ways to partner, the Fund's current stage, reporting commitments, and the enquiry form |
+| `concept-note.html` | One-page donor concept note, formatted to print to A4 or save as a PDF |
+| `404.html` | Page-not-found page (GitHub Pages uses it automatically) |
 | `brand/index.html` | Brand guidelines: logo, anatomy, colour, type and voice |
 
 ## Brand at a glance
@@ -39,6 +41,12 @@ Logo files are in `assets/img/`:
 - The header and footer are repeated in each HTML file. If you change them, change every page.
 - The enquiry form (`partner.html`) opens the visitor's email client, addressed to `ibrahim@masulgroup.com`. To receive submissions directly, point the form at a form service such as Formspree or Resend. See `assets/js/main.js`.
 - Figures on the home and about pages describe the founder's work at CCF Somaliland under LICIT II (2022–2025). They are labelled as prior delivery, not as Fund outputs. Keep that attribution when you edit them.
+
+## Sharing and search
+
+- Each page includes a social preview image (`assets/img/og-image.png`, 1200×630) and structured data describing the Fund.
+- Once the site has a domain, change the `og:image` URL in each page to the full address, for example `https://conservation.masulgroup.com/assets/img/og-image.png`. Most social networks ignore relative image paths.
+- The links in `404.html` assume the site is served from the root of its domain.
 
 ## Publishing on GitHub Pages
 

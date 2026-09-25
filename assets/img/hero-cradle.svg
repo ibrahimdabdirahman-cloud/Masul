@@ -5,7 +5,7 @@
 <g stroke-linecap="round" stroke="#2E5E2E"><path d="M40 250 H360"/></g>
 <g stroke-linecap="round" stroke="#9DBB9D"><path d="M116 210 V250"/><path d="M284 210 V250"/></g>
 </g>
-<g transform="translate(200 247) scale(1.05)" fill="#2E5E2E">
+<g transform="translate(200 247) scale(0.92)" fill="#2E5E2E">
 <path d="M-3 0 L-2 -38 L-22 -62 L-19 -64 L-1 -44 L0 -66 L3 -66 L3 -46 L20 -64 L23 -62 L4 -38 L3 0Z"/>
 <path d="M-62 -66 C-48 -84 -18 -90 0 -89 C22 -90 50 -84 64 -66 C44 -60 22 -59 0 -60 C-22 -59 -42 -60 -62 -66Z"/>
 </g>

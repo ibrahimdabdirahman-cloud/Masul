@@ -63,3 +63,29 @@
     });
   }
 })();
+
+// Copy-to-clipboard buttons (mailto links do not open in every browser or app)
+document.querySelectorAll('[data-copy]').forEach(function (btn) {
+  btn.addEventListener('click', function () {
+    var text = btn.getAttribute('data-copy');
+    var done = function () {
+      var label = btn.textContent;
+      btn.textContent = 'Copied';
+      setTimeout(function () { btn.textContent = label; }, 1800);
+    };
+    var fallback = function () {
+      var target = document.getElementById('contact-email');
+      if (!target) return;
+      var range = document.createRange();
+      range.selectNodeContents(target);
+      var sel = window.getSelection();
+      sel.removeAllRanges();
+      sel.addRange(range);
+    };
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      navigator.clipboard.writeText(text).then(done, fallback);
+    } else {
+      fallback();
+    }
+  });
+});
