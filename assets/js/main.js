@@ -1,6 +1,7 @@
 // Masul Conservation Fund — small progressive enhancements. The site works without JS.
 (function () {
   var root = document.documentElement;
+  root.classList.add('js');
   var header = document.querySelector('.site-header');
   var toggle = document.querySelector('.nav-toggle');
 
