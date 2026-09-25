@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 180" role="img" aria-label="Masul Conservation Fund">
+  <g transform="translate(0 -12) scale(0.72)" stroke="#2E5E2E">
+  <g fill="none" stroke-width="14">
+    <path d="M60 250 V210 A140 140 0 0 1 340 210 V250" stroke-linecap="butt"/>
+    <path d="M116 210 A84 84 0 0 1 284 210"/>
+    <path d="M152 210 A48 48 0 0 1 248 210" opacity="0.6"/>
+    <g stroke-linecap="round">
+      <path d="M40 250 H360"/>
+      <path d="M116 210 V250"/>
+      <path d="M284 210 V250"/>
+      <path d="M200 178 V250"/>
+    </g>
+  </g>
+  </g>
+  <text x="300" y="92" font-family="Poppins, 'Helvetica Neue', Arial, sans-serif" font-size="64" font-weight="500" letter-spacing="1" fill="#111111">Masul</text>
+  <text x="302" y="138" font-family="'EB Garamond', Garamond, Georgia, serif" font-size="36" font-style="italic" fill="#2E5E2E">Conservation Fund</text>
+</svg>

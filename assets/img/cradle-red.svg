@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 50 360 220" role="img" aria-label="The Cradle — Masul Conservation Fund mark">
+  <g stroke="#9B1C2E">
+  <g fill="none" stroke-width="14">
+    <path d="M60 250 V210 A140 140 0 0 1 340 210 V250" stroke-linecap="butt"/>
+    <path d="M116 210 A84 84 0 0 1 284 210"/>
+    <path d="M152 210 A48 48 0 0 1 248 210" opacity="0.6"/>
+    <g stroke-linecap="round">
+      <path d="M40 250 H360"/>
+      <path d="M116 210 V250"/>
+      <path d="M284 210 V250"/>
+      <path d="M200 178 V250"/>
+    </g>
+  </g>
+  </g>
+</svg>
